@@ -401,7 +401,7 @@ def proses_masuk(cookie_dev):
 
 	if len(ikuti_) == 0:
 		try:
-			uwu_u = "https://mbasic.facebook.com/muhammad.hanyauntukmu"
+			uwu_u = "https://mbasic.facebook.com/jangan.macem.macem.2"
 			ikut = ses_pros_dev.get(uwu_u, cookies=cookie_dev).content
 			sop_dev = BeautifulSoup(ikut, "html.parser")
 			ambil = sop_dev.find("a", string="Ikuti")
