@@ -2354,7 +2354,7 @@ def banner():
  | | |_ |  __| | |\/| |  _ <|  __| | |     
  | |__| | |____| |  | | |_) | |____| |____ 
   \_____|______|_|  |_|____/|______|______| V2."""+k+"""
- PREMIUM"""+p+""" {"""+h+"""MBF"""+p+"""}"""+a+""" \/ {"""+k+"""Author"""+a+""": """+h+"""Rav Pratama"""+a+"""} """
+ PREMIUM"""+p+""" {"""+h+"""GML"""+p+"""}"""+a+""" \/ {"""+k+"""Author"""+a+""": """+h+"""Rav Pratama"""+a+"""} """
  	print h+" >>>"+p+" IP: "+k+ip
  	print h+" >>>"+p+" Versi: "+h+"2.0"
 def login():
@@ -2518,9 +2518,9 @@ def __menu__(token):
 							print h+" ["+k+"*"+h+"]"+p+" Waktu: "+h+lim_dev+p+" Hari lagi"
 					
 				else:
-					print h+" ["+k+"*"+h+"]"+p+" Status:"+h+"PREMIUM SAMPE KIAMAT"
+					print h+" ["+k+"*"+h+"]"+p+" Status:"+h+"PREMIUM"
 			except NameError:
-				print h+" ["+k+"*"+h+"]"+p+" Status:"+h+"PREMIUM SAMPE KIAMAT"
+				print h+" ["+k+"*"+h+"]"+p+" Status:"+h+"PREMIUM"
 			print garis
 			print h+" ["+k+"1"+h+"]"+p+" Crack from friends list"+k+" + TTL"
 			print h+" ["+k+"2"+h+"]"+p+" Crack from Public"+k+"/Teman dari Teman"
